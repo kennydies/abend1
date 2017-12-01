@@ -7,7 +7,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: grey;
 }
 
 #head{
@@ -16,16 +15,22 @@ body{
     background-color: sandybrown;
 }
 
+.wrapper{
+    width: 100%;
+    height: calc(100vh - 300px);
+}
+
 .content{
     float: left;
     width: 80%;
-    height: 500px;
+    height: 100%;
     background-color: goldenrod;
 }
 
 aside{
     float: right;
     width: 20%;
+    height: 100%;
     background-color: grey;
 }
 
