@@ -1,0 +1,36 @@
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+#head{
+    width: 100%;
+    height: 150px;
+    background-color: sandybrown;
+}
+
+.content{
+    float: left;
+    width: 80%;
+    height: 500px;
+    background-color: goldenrod;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    background-color: grey;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: gold;
+}
